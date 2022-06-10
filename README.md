@@ -1,4 +1,4 @@
-# Better Deep Dark
+# Better Sculk
 
 为Minecraft1.19新增的监守者添加一套盔甲、以及回响碎片对应的矿石。
 

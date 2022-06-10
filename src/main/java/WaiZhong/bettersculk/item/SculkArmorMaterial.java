@@ -1,4 +1,4 @@
-package WaiZhong.betterdeepdark.item;
+package WaiZhong.bettersculk.item;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;

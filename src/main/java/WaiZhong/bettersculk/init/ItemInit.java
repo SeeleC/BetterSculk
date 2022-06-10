@@ -1,6 +1,6 @@
-package WaiZhong.betterdeepdark.init;
+package WaiZhong.bettersculk.init;
 
-import WaiZhong.betterdeepdark.item.SculkArmorMaterial;
+import WaiZhong.bettersculk.item.SculkArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
@@ -15,10 +15,10 @@ public class ItemInit {
     public static final Item ECHO_ARMOR_LEGGINGS = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings());
     public static final Item ECHO_ARMOR_BOOTS = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings());
 
-    public void init() {
-        Registry.register(Registry.ITEM, new Identifier("betterdeepdark", "echo_helmet"), ECHO_ARMOR_HELMET);
-        Registry.register(Registry.ITEM, new Identifier("betterdeepdark", "echo_chestplate"), ECHO_ARMOR_CHESTPLATE);
-        Registry.register(Registry.ITEM, new Identifier("betterdeepdark", "echo_leggings"), ECHO_ARMOR_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("betterdeepdark", "echo_boots"), ECHO_ARMOR_BOOTS);
+    public static void init() {
+        Registry.register(Registry.ITEM, new Identifier("bettersculk", "echo_helmet"), ECHO_ARMOR_HELMET);
+        Registry.register(Registry.ITEM, new Identifier("bettersculk", "echo_chestplate"), ECHO_ARMOR_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier("bettersculk", "echo_leggings"), ECHO_ARMOR_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier("bettersculk", "echo_boots"), ECHO_ARMOR_BOOTS);
     }
 }
