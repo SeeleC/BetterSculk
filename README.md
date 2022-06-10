@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Better Deep Dark
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+为Minecraft1.19新增的监守者添加一套盔甲、以及回响碎片对应的矿石。
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+此项目基于 [Apache 2.0](LICENSE) 协议。
