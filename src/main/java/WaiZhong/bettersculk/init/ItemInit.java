@@ -1,5 +1,6 @@
 package WaiZhong.bettersculk.init;
 
+import WaiZhong.bettersculk.item.EchoArmorItem;
 import WaiZhong.bettersculk.material.SculkArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
@@ -11,10 +12,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ItemInit {
     public static final ArmorMaterial SCULK_ARMOR_MATERIAL = new SculkArmorMaterial();
-    public static final Item ECHO_ARMOR_HELMET = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings());
-    public static final Item ECHO_ARMOR_CHESTPLATE = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings());
-    public static final Item ECHO_ARMOR_LEGGINGS = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings());
-    public static final Item ECHO_ARMOR_BOOTS = new ArmorItem(SCULK_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings());
+    public static final Item ECHO_ARMOR_HELMET = new EchoArmorItem(EquipmentSlot.HEAD);
+    public static final Item ECHO_ARMOR_CHESTPLATE = new EchoArmorItem(EquipmentSlot.CHEST);
+    public static final Item ECHO_ARMOR_LEGGINGS = new EchoArmorItem(EquipmentSlot.LEGS);
+    public static final Item ECHO_ARMOR_BOOTS = new EchoArmorItem(EquipmentSlot.FEET);
     public static final Item SCULK_BONE = new Item(new Item.Settings().rarity(Rarity.RARE));
 
     public static void init() {

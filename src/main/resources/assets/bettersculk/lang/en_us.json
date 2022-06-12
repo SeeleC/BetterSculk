@@ -8,6 +8,8 @@
   "item.bettersculk.echo_leggings": "Echo Leggings",
   "item.bettersculk.echo_boots": "Echo Boots",
 
+  "armor.echo.tooltip": "Prevents ignore Armor when ranged attacks from Wardens",
+
   "item.bettersculk.sculk_bone": "Sculk Bone",
 
   "modmenu.descriptionTranslation.bettersculk": "Add some items for Minecraft 1.19"
