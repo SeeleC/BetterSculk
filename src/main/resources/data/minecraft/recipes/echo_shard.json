@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "misc",
+  "ingredient": {
+    "item": "bettersculk:sculk_ore"
+  },
+  "result": "minecraft:echo_shard",
+  "experience": 1.5,
+  "cookingtime": 120
+}

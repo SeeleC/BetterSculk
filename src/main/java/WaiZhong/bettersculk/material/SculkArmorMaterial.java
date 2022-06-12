@@ -1,4 +1,4 @@
-package WaiZhong.bettersculk.item;
+package WaiZhong.bettersculk.material;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
@@ -9,11 +9,11 @@ import net.minecraft.sound.SoundEvents;
 
 public class SculkArmorMaterial implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
+    private static final int[] PROTECTION_VALUES = new int[] {4, 7, 9, 4};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 37;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 36;
     }
 
     @Override
@@ -23,12 +23,12 @@ public class SculkArmorMaterial implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 30;
+        return 24;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_LEATHER;
+        return SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND;
     }
 
     @Override
@@ -38,16 +38,16 @@ public class SculkArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "Echo";
+        return "echo";
     }
 
     @Override
     public float getToughness() {
-        return 3.0F;
+        return 2.8F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 3.0F;
+        return 0.12F;
     }
 }
