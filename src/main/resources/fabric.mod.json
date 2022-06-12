@@ -3,8 +3,8 @@
   "id": "bettersculk",
   "version": "${version}",
 
-  "name": "BetterSculk",
-  "description": "Add some armors and ores for Minecraft 1.19",
+  "name": "Better Sculk",
+  "description": "Add some items for Minecraft 1.19",
   "authors": [
     "WaiZhong"
   ],
@@ -26,14 +26,15 @@
   "mixins": [
     "bettersculk.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.0",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
+  "custom": {
+    "modmenu": {
+      "badges": [ "client" ]
+    }
   }
 }
