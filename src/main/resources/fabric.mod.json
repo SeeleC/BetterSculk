@@ -6,7 +6,7 @@
   "name": "Better Sculk",
   "description": "Add some items for Minecraft 1.19",
   "authors": [
-    "WaiZhong"
+    "SeeleC"
   ],
   "contact": {
     "homepage": "https://github.com/WaiZhong/BetterSculk/",
@@ -29,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.14.0",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": ">=1.19",
     "java": ">=17"
   },
   "suggests": {
